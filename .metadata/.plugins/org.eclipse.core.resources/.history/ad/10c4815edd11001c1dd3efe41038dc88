@@ -1,0 +1,48 @@
+package seleniumPackage1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class sauceDemologin {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Tuhin\\Desktop\\libraries\\chromedriver.exe");
+		
+		WebDriver driver= new ChromeDriver();
+		
+		
+		driver.manage().deleteAllCookies();
+		
+		driver.manage().window().maximize();
+		
+		driver.get("https://login.yahoo.com/account/create");
+		
+		//WebElement firstName = driver.findElement(By )
+		
+		
+		
+		
+		WebElement helplink = driver.findElement(By.linkText("Help"));
+		
+		
+		helplink.click();
+		
+		driver.navigate().back();
+		
+		driver.navigate().forward();
+		
+		driver.navigate().back();
+		
+		WebElement firstname = driver.findElement(By.name("firstName"));
+		
+		firstname.sendKeys("Mike");
+		
+		
+
+
+	}
+
+}

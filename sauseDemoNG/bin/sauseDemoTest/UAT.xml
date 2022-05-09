@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<suite name="UAT Testing">
+
+<test name="User acceptance Testing ">
+
+<classes>
+
+<class name="sauseDemoTest.sauceDemoNG"></class>
+
+</classes>
+
+</test>
+
+
+
+
+
+ 
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Smoke Testing Sauce Demo">
+
+<test name="Smoke Testing">
+
+<classes>
+
+<class name="sauseDemoTest.sauceDemoNGV2"></class>
+<class name="sauseDemoTest.sauceDemoNG"></class>
+
+</classes>
+
+</test> 
+
+
+
+
+
+ 
+</suite>

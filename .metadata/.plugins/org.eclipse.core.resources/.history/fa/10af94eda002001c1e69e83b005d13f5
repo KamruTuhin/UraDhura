@@ -1,0 +1,19 @@
+package packageOne;
+
+public class homeWork2 {
+
+	public static void main(String[] args) {
+		int X=14;
+		
+		int y=20;
+		
+		if(X<Y) {
+			
+			
+			System.out.println("Inside the condition");
+		}
+
+		System.out.println("Out of condition");
+	}
+
+}

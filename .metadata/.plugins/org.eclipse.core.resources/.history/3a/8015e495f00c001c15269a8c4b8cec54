@@ -1,0 +1,14 @@
+package packageTwo;
+
+public class runMain {
+
+	public static void main(String[] args) {
+		 
+		utility ut =new utility();
+		
+		ut.addtwoNumbers(12, 24);
+				
+
+	}
+
+}

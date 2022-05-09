@@ -1,0 +1,22 @@
+ package packageOne;
+
+public class runMainOne {
+
+	public static void main(String[] args) {
+		 
+		int a;
+		a=25;
+		
+		int b;
+		b=35;
+		
+		string name;
+		
+			name= Kam;	
+			System.out.println(a);
+			
+			
+
+	}
+
+}

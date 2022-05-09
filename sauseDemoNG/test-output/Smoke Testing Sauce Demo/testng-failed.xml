@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Testing Sauce Demo]">
+  <test name="Smoke Testing(failed)">
+    <classes>
+      <class name="sauseDemoTest.sauceDemoNGV2">
+        <methods>
+          <include name="negative_login_validation"/>
+          <include name="positive_login_Valoidation"/>
+          <include name="loginElementValidation"/>
+        </methods>
+      </class> <!-- sauseDemoTest.sauceDemoNGV2 -->
+      <class name="sauseDemoTest.sauceDemoNG">
+        <methods>
+          <include name="positive_login_Valoidation"/>
+          <include name="loginElementValidation"/>
+          <include name="setupTest"/>
+          <include name="negative_login_validation"/>
+        </methods>
+      </class> <!-- sauseDemoTest.sauceDemoNG -->
+    </classes>
+  </test> <!-- Smoke Testing(failed) -->
+</suite> <!-- Failed suite [Smoke Testing Sauce Demo] -->

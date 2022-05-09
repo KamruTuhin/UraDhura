@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11053" started-at="2021-09-19T04:19:40Z" finished-at="2021-09-19T04:19:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11053" started-at="2021-09-19T04:19:40Z" finished-at="2021-09-19T04:19:51Z">
+      <class name="testngAnik.sauceDemoNGV2">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testngAnik.sauceDemoNGV2@667a738]" name="setupTest" is-config="true" duration-ms="4091" started-at="2021-09-19T00:19:40Z" finished-at="2021-09-19T00:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:testngAnik.sauceDemoNGV2@667a738]" name="beforeEachTest" is-config="true" duration-ms="223" started-at="2021-09-19T00:19:44Z" finished-at="2021-09-19T00:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="loginElementValidation()[pri:1, instance:testngAnik.sauceDemoNGV2@667a738]" name="loginElementValidation" duration-ms="272" started-at="2021-09-19T00:19:44Z" finished-at="2021-09-19T00:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginElementValidation -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:testngAnik.sauceDemoNGV2@667a738]" name="beforeEachTest" is-config="true" duration-ms="867" started-at="2021-09-19T00:19:45Z" finished-at="2021-09-19T00:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="negative_login_validation()[pri:2, instance:testngAnik.sauceDemoNGV2@667a738]" name="negative_login_validation" duration-ms="739" started-at="2021-09-19T00:19:46Z" finished-at="2021-09-19T00:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_login_validation -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:testngAnik.sauceDemoNGV2@667a738]" name="beforeEachTest" is-config="true" duration-ms="391" started-at="2021-09-19T00:19:46Z" finished-at="2021-09-19T00:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="positive_login_Valoidation()[pri:3, instance:testngAnik.sauceDemoNGV2@667a738]" name="positive_login_Valoidation" duration-ms="768" started-at="2021-09-19T00:19:47Z" finished-at="2021-09-19T00:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positive_login_Valoidation -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testngAnik.sauceDemoNGV2@667a738]" name="endTest" is-config="true" duration-ms="3665" started-at="2021-09-19T00:19:48Z" finished-at="2021-09-19T00:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testngAnik.sauceDemoNGV2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

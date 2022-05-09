@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Login Testing">
+
+<test name="Positive data testing">
+
+
+<parameter name="username" value="standard_user"></parameter>
+<parameter name="password" value="secret_sauce"></parameter>
+<parameter name="expectedresult" value="https://www.saucedemo.com/inventory.html"></parameter>
+
+
+<classes>
+
+
+<class name = "sauseDemoTest.sauceDemoLogin"></class>
+
+
+</classes>
+
+</test>
+
+
+<test name="negative data testing">
+
+
+<parameter name="username" value="standard_user"></parameter>
+<parameter name="password" value="secret_sauce"></parameter>
+<parameter name="expectedresult" value="https://www.saucedemo.com/"></parameter>
+
+
+<classes>
+
+
+<class name = "sauseDemoTest.sauceDemoLogin"></class>
+
+
+</classes>
+
+</test>
+
+
+ 
+</suite>
